@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "eelaecommerce"
+version = "1.0.0"
+description = "Ecommerce Website desarrollado con Django"
+authors = ["Gabriel Villacis <gab_villacis@hotmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.7"
+psycopg2-binary = "^2.9.9"
+pillow = "^10.1.0"
+django-extensions = "^3.2.3"
+django-bootstrap5 = "^23.3"
+django-environ = "^0.11.2"
+azure-storage-blob = "^12.19.0"
+django-storages = {extras = ["azure"], version = "^1.14.2"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
